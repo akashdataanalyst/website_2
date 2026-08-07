@@ -74,7 +74,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 // STEP 1: Deploy the Apps Script in /google-apps-script/Code.gs as a Web App
 //         (see README.md for exact steps).
 // STEP 2: Paste the deployment URL below.
-const GOOGLE_SCRIPT_URL = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz05EYySBHhffLOV7Ehs19Hz8R-ymxAXdHS1yJusLsjlC_Xu_I0GItKswh4_BnI0UU/exec';
 
 const form = document.getElementById('contactForm');
 const statusEl = document.getElementById('formStatus');
